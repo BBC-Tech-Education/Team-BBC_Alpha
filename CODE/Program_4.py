@@ -151,13 +151,8 @@ f_ds_m = robot.getDevice("f_ds_m")
 f_ds_l = robot.getDevice("f_ds_l")
 
 # Initialise distance sensors
-l_ds_b.enable(TIME_STEP)
-r_ds_b.enable(TIME_STEP)
-l_ds_f.enable(TIME_STEP)
-f_ds_r.enable(TIME_STEP)
-r_ds_f.enable(TIME_STEP)
-f_ds_m.enable(TIME_STEP)
-f_ds_l.enable(TIME_STEP)
+for sensor in [l_ds_f, l_ds_b, f_ds_l, f_ds_m, f_ds_r, r_ds_f, r_ds_b]:
+    sensor.enable(TIME_STEP)
 
 # GPS
 gps = robot.getDevice("gps")  
