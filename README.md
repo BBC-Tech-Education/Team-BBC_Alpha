@@ -1,3 +1,3 @@
 # Team BBC Alpha
 
-Rescue simulation team
+Rescue maze simulation team - hopefully competing at Nuremburg in 2027
