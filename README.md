@@ -1,3 +1,3 @@
-# Team BBC Pilot
+# Team BBC Alpha
 
 Rescue simulation team
